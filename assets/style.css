@@ -31,11 +31,12 @@ nav{
 .header li  {
     max-height: 200px;
 }
- 
-
-
-
-#about-me{
+ main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+  }
+.body-section{
     font-size: 25px;
     width:500px;
     padding: 25px
@@ -47,3 +48,17 @@ footer {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-align: center;
     }
+ @media screen and (max-width:650px)
+    {
+        header, nav{
+          flex-direction: column;
+        }
+        section {
+          padding-right: 0;
+        }
+        aside {
+          width: 100%;
+          text-align: center;
+        }
+      }
+      
