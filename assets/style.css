@@ -35,6 +35,50 @@ nav{
     display: flex;
     flex-wrap: wrap;
     margin-top: 2%;
+    margin-left: 15px;
+  }
+  #Work
+  {
+    background-color:#146bf7;
+    color: #f6ffd4;
+    margin-left: 50px;
+  }
+  .card {
+    width: 80%; 
+    height:240px;
+    max-height: 240px;
+    padding: 20px;
+    margin: 20px;
+    flex: 0 0 350px;
+  }
+  .card:hover {
+    border-width: 3px;
+    text-size-adjust: 150%;
+  }
+  
+  .cardlinks {
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    vertical-align: text-top;
+    max-height: 10px;
+  }
+  
+  .proj-Img {
+    position:relative;
+    top:-50px;
+  }
+  .proj-Img img:hover{
+    opacity: 80%;
+  }
+  .proj-Img img {
+    max-width: 400px;
+    max-height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+ #Picture-of-myself{
+     margin-top: 28px;
   }
 .body-section{
     font-size: 25px;
@@ -42,13 +86,26 @@ nav{
     padding: 25px
        
    }
+  #Work-header {
+     text-align: center;
+     margin-left: -30px;
+     margin-bottom: 30px;
+     }
+   .card h2 {
+    position:relative;
+    top:-60px;
+    width:200px;
+    height:25px;
+    padding: 20px;
+    text-align:center;
+  }
 footer {
         padding: 30px;
         clear: both;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         text-align: center;
     }
- @media screen and (max-width:650px)
+ @media screen and (max-width:700px)
     {
         header, nav{
           flex-direction: column;
